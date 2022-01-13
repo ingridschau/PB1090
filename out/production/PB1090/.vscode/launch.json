@@ -1,0 +1,62 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+    
+        
+
+        {
+            "type": "java",
+            "name": "Launch MyJavaFX",
+            "request": "launch",
+            "mainClass": "MyJavaFX",
+            "projectName": "PB1090_d5cbed8c"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch AdditionQuiz2",
+            "request": "launch",
+            "mainClass": "AdditionQuiz2"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "vmArgs": "--module-path \"C:/Java/javafx-sdk-17.0.1/lib\" --add-modules javafx.controls,javafx.fxml,javafx.base,javafx.web --add-exports javafx.graphics/com.sun.javafx.sg.prism=ALL-UNNAMED"
+        },
+        {
+            "type": "java",
+            "name": "Launch LinearEquationsSolver",
+            "request": "launch",
+            "mainClass": "LinearEquationsSolver"
+        },
+        {
+            "type": "java",
+            "name": "Launch PentagonArea",
+            "request": "launch",
+            "mainClass": "PentagonArea"
+        },
+        {
+            "type": "java",
+            "name": "Launch QuadraticEquationsSolver",
+            "request": "launch",
+            "mainClass": "QuadraticEquationsSolver"
+        },
+        {
+            "type": "java",
+            "name": "Launch Template",
+            "request": "launch",
+            "mainClass": "Template"
+        }
+    ]
+}

@@ -9,7 +9,7 @@ class AssignGrades {
 
         System.out.println("Please enter the number of students: ");
 
-        amount = input.nextInt();
+        int amount = input.nextInt();
 
         int[] students = new int[amount];
 
@@ -25,7 +25,7 @@ class AssignGrades {
                 best = students[i];
             }
         }
-        i = 0;
+        int uui = 0;
         for (i = 0; i <= amount; i++ ){
 
             
