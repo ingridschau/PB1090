@@ -1,5 +1,5 @@
 import java.lang.Math;
-public class HeadsOrTails {
+class HeadsOrTails {
 
     public static void main(String[] args) {
 

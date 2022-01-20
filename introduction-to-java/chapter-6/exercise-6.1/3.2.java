@@ -1,5 +1,4 @@
-
- public class DivisibleBy3And4 {
+public class 3.2 {
 
     public static void main(String[] args) {
 
