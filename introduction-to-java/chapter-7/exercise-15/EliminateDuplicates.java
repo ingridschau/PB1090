@@ -1,20 +1,16 @@
 import java.util.Scanner;
 
 public class EliminateDuplicates {
-	/** Main method */
 	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in); // Create a Scanner
-		int[] numbers = new int[10]; // Create an array of length 10
+		Scanner input = new Scanner(System.in);
+		int[] numbers = new int[10]; 
 
-		// Prompt the user to enter ten numbers
 		System.out.print("Enter ten number: ");
 		for (int i = 0; i < numbers.length; i++)
 			numbers[i] = input.nextInt();
 
-		// Get distinct numbers
 		int[] distinctNumbers = eliminateDuplicates(numbers);
 
-		// Display the result
 		System.out.print("The distinct numbers are:");
 		for (int e: distinctNumbers) {
 			if (e > 0)
@@ -23,10 +19,9 @@ public class EliminateDuplicates {
 		System.out.println();
 	}
 
-	/** eleminateDuplicates returns a new array with duplicate values eliminated */
 	public static int[] eliminateDuplicates(int[] list) {
 		int[] distinctList = new int[list.length];
-		int i = 0;	// index distinctList
+		int i = 0;
 		for (int e: list) {
 			if (linearSearch(distinctList, e) == -1) {
 				distinctList[i] = e;
@@ -36,7 +31,6 @@ public class EliminateDuplicates {
 		return distinctList;
 	}
 
-	/** linearSearch */
 	public static int linearSearch(int[] array, int key) {
 		for (int i = 0; i < array.length; i++) {
 			if (key == array[i])

@@ -6,13 +6,15 @@ public class ConsistentInterval {
 		Scanner input = new Scanner(System.in);
 
 		// Prompt the user to enter two lists
-		System.out.print("Enter list1: ");
+		System.out.print("Enter the length of list 2");
 		int[] list1 = new int[input.nextInt()];
+		System.out.print("Enter list2: ");
 		for (int i = 0; i < list1.length; i++)
 			list1[i] = input.nextInt(); 	
 
-		System.out.print("Enter list2: ");
+		System.out.print("The length of list2:");
 		int[] list2 = new int[input.nextInt()];
+		System.out.print("Enter list2: ");
 		for (int i = 0; i < list2.length; i++)
 			list2[i] = input.nextInt();
 
