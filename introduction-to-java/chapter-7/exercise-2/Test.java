@@ -14,9 +14,9 @@ public class Test {
         {
             System.out.println(scanner.nextInt());
 
-            int[] array = scanner.nextInt();
+            int[] array = scanner. 
 
-            System.out.println(array);
+            System.out.println(array);døkc
 
 
         }
