@@ -14,11 +14,13 @@ public class Test {
         {
             System.out.println(scanner.nextInt());
 
-            int[] array = scanner. 
+            int array = scanner.nextInt();
 
-            System.out.println(array);døkc
+            System.out.println(array);
 
 
         }
+
+        scanner.close();
     }
 }
