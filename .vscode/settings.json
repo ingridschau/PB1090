@@ -11,7 +11,9 @@
         "c:\\Java\\javafx-sdk-17.0.1\\lib\\javafx-swt.jar"
     ],
     "java.project.sourcePaths": [
+        "introduction-to-java/chapter-7/exercise-4",
         "introduction-to-java/chapter-7/exercise-2",
-        "introduction-to-java/chapter-7/exercise-4"
+        "",
+        "."
     ]
 }
